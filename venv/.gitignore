@@ -1,3 +1,4 @@
 # .gitignore
 venv/URDC.csv
 URDC.csv
+var_group1.csv 

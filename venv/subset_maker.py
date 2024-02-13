@@ -5,7 +5,7 @@ file_path = 'venv/URDC.csv'
 df = pd.read_csv(file_path)
 
 # List of columns to keep (replace these with the actual column names you want to keep)
-selected_columns = ['EDUC', 'NACCAGEB', 'NACCAGE','DECIN','DECCLIN','COGMEM','COGORI','COGJUDG',
+selected_columns = ['NACCID','NACCVNUM','EDUC', 'NACCAGEB', 'NACCAGE','DECIN','DECCLIN','COGMEM','COGORI','COGJUDG',
                     'COGLANG','COGVIS','COGATTN','COGFLUC','COGFLAGO', 'COGOTHR', 'NACCCOGF', 'COGMODE', 'NACCTMCI', 'NACCALZD', 'NACCALZP',
                     'PROBAD', 'PROBADIF','POSSAD','POSSADIF','NACCNORM','NACCIDEM','NACCMCII']
 

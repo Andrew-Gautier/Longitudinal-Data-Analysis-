@@ -81,16 +81,16 @@ from sklearn.linear_model import HuberRegressor
 
 #TEST A
 # Fit a robust regression model
-# huber = HuberRegressor()
-# huber.fit(df[['EDUC']], df['COGMEM'])
-# # Plot the scatterplot with the robust regression line
-# plt.figure(figsize=(10, 6))
-# sns.regplot(x='EDUC', y='COGMEM', data=df, scatter_kws={'s': 10})
-# plt.plot(df['EDUC'], huber.predict(df[['EDUC']]), color='red', linewidth=2)
-# plt.title('Scatterplot with Robust Regression: Education vs Cognitive Memory')
-# plt.xlabel('Years of Education')
-# plt.ylabel('COGMEM')
-# plt.show()
+huber = HuberRegressor()
+huber.fit(df[['EDUC']], df['COGMEM'])
+# Plot the scatterplot with the robust regression line
+plt.figure(figsize=(10, 6))
+sns.regplot(x='EDUC', y='COGMEM', data=df, scatter_kws={'s': 10})
+plt.plot(df['EDUC'], huber.predict(df[['EDUC']]), color='red', linewidth=2)
+plt.title('Scatterplot with Robust Regression: Education vs Cognitive Memory')
+plt.xlabel('Years of Education')
+plt.ylabel('COGMEM')
+plt.show()
 
 #TEST B
 

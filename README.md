@@ -1,6 +1,6 @@
 ### Data Analysis performed
 Cleaning, coding longitudional responses into a time series format. <br>
-Performing interval analysis on the variables related to diseases of cognitive aging. <br> See venv/experiment1.ipynb
+Performing interval analysis on the variables related to diseases of cognitive aging. <br> See venv/experiment1.ipynb<br>
 Performed several regressions and calculated a confidence interval for our final poster presentation. <br> 
 
 
